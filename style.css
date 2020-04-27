@@ -1,7 +1,19 @@
+body{
+	background-color: silver;
+	/* Här kan man ända textfärg och bakgrundsfärg till årets tema-färg color: #E80C94;*/
+	font-family: 'Montserrat', sans-serif;
+}
 .display-4{
 	padding: 60px;
   text-align: center;
   background: #E80C94;
   color: white;
   font-size: 82px;
+}
+.bilder{
+	width: 350px;
+	height: 300px;
+}
+.sectionmargin{
+	margin-top: 30px;
 }
