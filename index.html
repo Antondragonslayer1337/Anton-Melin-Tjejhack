@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="main.js"></script>
 
   <title>Min hemsida</title>
 </head>
@@ -97,9 +98,37 @@
   <br><br>
     <h2>Kalenderfunktion</h2>
     <h3>2020:</h3>
+    <p>Dessa dagar är det tjejhack:</p>
     <p>Vecka 25, mån kl 14:00-16:00</p>
      <p>Vecka 26, mån kl 14:00-16:00</p>
       <p>Vecka 28, mån kl 14:00-16:00</p>
+  </div>
+</section>
+<section>
+  <div class="container">
+  <br><br>
+    <h2 id="rubrik">Python quiz</h2>
+    <form id="quiz" name="quiz">
+    <p>Programspråket Python har fått sitt namn från...</p>
+    <input id="mc" type="radio" name="question1" value="Ormen"> Ormen<br>
+     <input id="mc" type="radio" name="question1" value="Monty Python"> Monty Python<br>
+      <input id="mc" type="radio" name="question1" value="Lukten"> Lukten<br>
+      <p>Vilket bibliotek använder man när man ritar med Python?</p>
+    <input id="mc" type="radio" name="question2" value="Turtle"> Turtle<br>
+     <input id="mc" type="radio" name="question2" value="Paint"> Paint<br>
+      <input id="mc" type="radio" name="question2" value="Draw"> Draw<br>
+      <p>Vilken typ av programmering gör man med Python?</p>
+    <input id="mc" type="radio" name="question3" value="Blockprogrammering"> Blockprogrammering<br>
+     <input id="mc" type="radio" name="question3" value="Textprogrammering"> Textprogrammering<br>
+      <input id="mc" type="radio" name="question3" value="Analog programmering"> Analog programmering<br>
+       <input class="button" type="button" value="Jag är klar!" onclick="check()">
+
+   
+
+    <div id="after_submit">
+    <p id="number_correct"></p>
+    </div>
+     </form>
   </div>
 </section>
   <!-- Optional JavaScript -->
