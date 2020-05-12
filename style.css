@@ -1,8 +1,4 @@
-body{
-	background-color: silver;
-	/* Här kan man ända textfärg och bakgrundsfärg till årets tema-färg color: #E80C94;*/
-	font-family: 'Montserrat', sans-serif;
-}
+
 .display-4{
 	padding: 60px;
   text-align: center;
@@ -33,3 +29,34 @@ background: red;
 	width: 100px;
 	height: 100px;
 }
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* Här kan man ända textfärg och bakgrundsfärg till årets tema-färg*/
+body{
+	background-color: silver;
+	font-family: 'Montserrat', sans-serif;
+
+}
+p{
+		color: #E80C94;
+	}
+	color: #E80C94;
