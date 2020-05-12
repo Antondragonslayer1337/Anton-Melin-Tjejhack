@@ -7,10 +7,10 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css"> <!--Min Css-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <!-- Inlänkad javascript--><script src="main.js"></script> 
-
+<!-- Gjorde allt på en sida så det blir lättare för folk utan mus att orientera sig på sidan-->
   <title>Min hemsida</title>
 </head>
 <body>
@@ -27,17 +27,32 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#Allmän info">Allmän info</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+           <li class="nav-item">
+            <a class="nav-link" href="#Undervisningsmaterial">Undervisningsmaterial</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#Tips">Tips</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#Press">Press</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#Kalender">Kalender</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#Quiz">Quiz</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#Mentorerna">Mentorerna</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#Kontaktinformation">Kontaktinformation</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#Bildgalleri">Bildgalleri</a>
+          </li>
             <li class="nav-item">
             <a class="nav-link" href="#"><img src="img/Knuthahn.jpg" height="70"></a>
           </li>
@@ -53,7 +68,7 @@
   <img src="img/code.jpg" class="bilder">
   </div>
 </section>
-<section> <!-- Allmän info fliken-->
+<section id="Allmän info"> <!-- Allmän info fliken-->
   <div class="container">
   <br><br>
   <h2>Allmän information</h2>
@@ -62,7 +77,7 @@
   </div>
 </section>
 <section> <!-- Undervisningsmaterials fliken-->
-  <div class="container">
+  <div class="container" id="Undervisningsmaterial">
   <br><br>
     <h2>Undervisningsmaterial</h2>
     <p> Klicka på länken nedan för att hämta häftet till dagens tjejhack</p>
@@ -72,7 +87,7 @@
   </div>
 </section>
 <section> <!-- Tips fliken-->
-  <div class="container">
+  <div class="container" id="Tips">
   <br><br>
     <h2>Tips för att lära sig programmera</h2>
     <ul>
@@ -84,7 +99,7 @@
   </div>
 </section>
 <section> <!-- Press fliken-->
-  <div class="container">
+  <div class="container" id="Press">
   <br><br>
     <h2>Press</h2>
     <p>Klicka på länken nedan för att komma till en youtubevideo där Fredrik Johansson gästar en teknik-podcast</p>
@@ -94,7 +109,7 @@
   </div>
 </section>
 <section> <!-- Kalender-->
-  <div class="container">
+  <div class="container" id="Kalender">
   <br><br>
     <h2>Kalenderfunktion</h2>
     <h3>2020:</h3>
@@ -104,8 +119,8 @@
       <p>Vecka 28, mån kl 14:00-16:00</p>
   </div>
 </section>
-<section>
-  <div class="container">
+<section> <!-- Quiz-->
+  <div class="container" id="Quiz">
   <br><br>
     <h2 id="rubrik">Python quiz</h2>
     <form id="quiz" name="quiz">
@@ -131,8 +146,8 @@
      </form>
   </div>
 </section>
-<section>
-  <div class="container">
+<section> <!-- Mentorerna-->
+  <div class="container" id="Mentorerna">
   <br><br>
     <h2>Presentation av mentorerna</h2>
     <img src="img/man.jpg"class="mentor">
@@ -141,8 +156,8 @@
     <p>Fredrik Johansson &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Liselott Lilja</p>
   </div>
 </section>
-<section>
-  <div class="container">
+<section> <!-- Kontaktinformation och google maps-->
+  <div class="container" id="Kontaktinformation">
   <br><br>
     <h2>Kontaktinformation</h2>
     <p>En av mentorerna:</p>
@@ -153,8 +168,8 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2219.3553124530445!2d15.270559415412109!3d56.202818980676106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4656647d084020a3%3A0xe929fb8182a0b18d!2sKnut%20Hahnsskolan!5e0!3m2!1ssv!2sse!4v1589220086831!5m2!1ssv!2sse" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
 </section>
-<section>
-  <div class="container">
+<section> <!--Bildgalleri, här kan man lägga in bilder-->
+  <div class="container" id="Bildgalleri">
     <h2>Bildgalleri</h2>
 <div class="gallery">
   <a target="_blank" href="img/giraffe.jpg">

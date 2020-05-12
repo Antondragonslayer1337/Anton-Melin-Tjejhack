@@ -29,7 +29,7 @@ background: red;
 	width: 100px;
 	height: 100px;
 }
-
+/* Bildgalleri*/
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -37,7 +37,7 @@ div.gallery {
   width: 180px;
 }
 
-div.gallery:hover {
+div.gallery:hover { /* Hover*/
   border: 1px solid #777;
 }
 
@@ -54,9 +54,9 @@ div.desc {
 body{
 	background-color: silver;
 	font-family: 'Montserrat', sans-serif;
+	/*color: #E80C94;*/
 
 }
 p{
 		color: #E80C94;
 	}
-	color: #E80C94;
